@@ -17,20 +17,17 @@ header {
   text-align: center;
   padding: 60px 20px 40px;
   border-bottom: 1px solid #eee;
-  background: url('https://images.unsplash.com/photo-1641456407844-e7e045dc498e?w=1920&q=80') no-repeat center center;
-  background-size: cover;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 header h1 {
   font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #fff;
 }
 
 .tagline {
-  color: rgba(255, 255, 255, 0.85);
+  color: #888;
   margin: 8px 0 24px;
   font-size: 1rem;
 }
@@ -38,13 +35,13 @@ header h1 {
 nav a {
   margin: 0 14px;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: #555;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
 }
 
 nav a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* Main */
