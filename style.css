@@ -7,7 +7,8 @@
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
   color: #333;
-  background: #fff;
+  background: url('https://images.unsplash.com/photo-1641456407844-e7e045dc498e?w=1920&q=80') no-repeat center top fixed;
+  background-size: cover;
   line-height: 1.7;
 }
 
@@ -16,6 +17,7 @@ header {
   text-align: center;
   padding: 60px 20px 40px;
   border-bottom: 1px solid #eee;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 header h1 {
@@ -47,6 +49,7 @@ main {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 20px;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 section {
@@ -159,4 +162,5 @@ footer {
   padding: 30px;
   font-size: 0.82rem;
   color: #aaa;
+  background: rgba(255, 255, 255, 0.85);
 }
