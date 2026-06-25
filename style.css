@@ -7,8 +7,8 @@
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
   color: #333;
-  background: url('https://images.unsplash.com/photo-1641456407844-e7e045dc498e?w=1920&q=80') no-repeat center top fixed;
-  background-size: cover;
+  background: linear-gradient(135deg, #e8f5e9, #a5d6a7, #66bb6a);
+  background-attachment: fixed;
   line-height: 1.7;
 }
 
