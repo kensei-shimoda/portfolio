@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kensei Shimoda</h1>
+    <p class="tagline">経済学部3年</p>
+    <nav>
+      <div class="dropdown">
+        <a href="index.html#about" class="dropdown-toggle">About</a>
+        <div class="dropdown-menu">
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="index.html#experience">Experience</a>
+        </div>
+      </div>
+      <a href="projects.html">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Flet Animation App</h3>
+          <p>Pythonのデスクトップ UIフレームワーク Flet を使用したアニメーションアプリ。カラフルなアニメーションをインタラクティブに楽しめる。</p>
+          <a href="https://github.com/kensei-shimoda/my-kiro-samples" target="_blank">GitHub →</a>
+          <a href="https://kensei-shimoda.github.io/my-kiro-samples/" target="_blank">Web App →</a>
+        </div>
+        <div class="project-card">
+          <h3>タスクまる見え</h3>
+          <p>Python の UI フレームワーク Flet を使用したToDoアプリ。タブ別件数表示・フラグ機能・完了タスクの薄表示など。</p>
+          <a href="https://github.com/kensei-shimoda/kklab-flet-simple-todo" target="_blank">GitHub →</a>
+          <a href="https://kensei-shimoda.github.io/kklab-flet-simple-todo/" target="_blank">Web App →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Contact: Email: <a href="mailto:c243138@ed.nagoya-cu.ac.jp">c243138@ed.nagoya-cu.ac.jp</a></p>
+    <p>GitHub: <a href="https://github.com/kensei-shimoda" target="_blank">github.com/kensei-shimoda</a></p>
+    <p>&copy; 2026 下田謙成</p>
+  </footer>
+  <button id="back-to-top" aria-label="トップへ戻る">↑</button>
+
+  <script>
+    const btn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('visible', window.scrollY > 50);
+    });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
