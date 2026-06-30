@@ -77,5 +77,16 @@
     <p>GitHub: <a href="https://github.com/kensei-shimoda" target="_blank">github.com/kensei-shimoda</a></p>
     <p>&copy; 2026 下田謙成</p>
   </footer>
+  <button id="back-to-top" aria-label="トップへ戻る">↑</button>
+
+  <script>
+    const btn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('visible', window.scrollY > 50);
+    });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
