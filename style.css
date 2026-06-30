@@ -185,6 +185,7 @@ h2 {
   color: #222;
   border-left: 4px solid #66bb6a;
   padding-left: 12px;
+  scroll-margin-top: 40vh;
 }
 
 .projects-grid {
