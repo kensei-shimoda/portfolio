@@ -20,7 +20,7 @@
         </div>
       </div>
       <a href="projects.html">Projects</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="#contact" class="scroll-bottom">Contact</a>
     </nav>
   </header>
 
@@ -58,6 +58,11 @@
     });
     btn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    document.querySelector('.scroll-bottom').addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     });
   </script>
 </body>
